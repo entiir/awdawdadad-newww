@@ -1,0 +1,25 @@
+
+/* Home reference supplied October 30; the token chart surface is unchanged. */
+.home-reference-design .home-reference-summary{padding-bottom:0}
+.home-reference-account{min-height:40px;margin-bottom:10px}
+.home-reference-summary>.flex.items-center.gap-2{line-height:1.12!important}
+.home-reference-actions{display:flex;gap:10px;padding:26px 28px 0}
+.home-reference-actions button{display:flex;align-items:center;justify-content:center;gap:8px;flex:1;min-width:0;min-height:48px;border-radius:999px;background:#202020;color:#b7b7bb;font-size:18px;font-weight:600}
+.home-reference-design .ph-home-holding{background:#121212;box-shadow:none;min-height:70px;padding:13px 18px;border-radius:24px}
+.home-reference-design .ph-home-holding .truncate{color:inherit}
+.home-perps-section{padding-top:28px}
+.home-perps-title{display:flex;align-items:center;gap:6px;margin:0 28px 14px;min-height:44px;font-size:25px;font-weight:650;letter-spacing:-.02em}
+.home-perps-carousel{display:flex;gap:10px;overflow-x:auto;padding:0 28px 4px;scroll-snap-type:x proximity;scrollbar-width:none}
+.home-perps-card{width:292px;max-width:calc(100vw - 78px);flex-shrink:0;scroll-snap-align:start;background:#121212;border-radius:24px;padding:20px 18px 16px;text-align:left;min-height:130px}
+.home-perps-card-top{display:flex;align-items:center;gap:10px;padding-bottom:19px;border-bottom:1px solid #202020}
+.home-perps-name{flex:1;min-width:0;overflow:hidden}
+.home-perps-name strong{display:block;font-size:18px;font-weight:650;line-height:1.3}
+.home-perps-name small{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#99999f;font-size:13px;margin-top:2px}
+.home-perps-bias{background:#07200d;color:#42e570;font-size:13px;font-weight:650;border-radius:5px;padding:4px 5px;white-space:nowrap}
+.home-perps-sentiment{display:flex;align-items:center;gap:10px;padding-top:16px;font-size:13px;white-space:nowrap;color:#a2a2a8}
+.home-perps-sentiment>span:first-child{color:#46d76e;font-weight:600}
+.home-perps-meter{flex:1;height:6px;border-radius:99px;background:#184724;overflow:hidden}
+.home-perps-meter i{display:block;height:100%;background:#41c660;border-radius:99px 0 0 99px}
+.home-perps-note{display:block;padding:5px 28px 0;color:#88888e;font-size:11px}
+.home-reference-design button:focus-visible{outline:2px solid #aa9ef0;outline-offset:3px}
+@media(max-width:350px){.home-reference-actions{padding-left:22px;padding-right:22px}.home-reference-actions button{font-size:16px}.home-perps-card{max-width:calc(100vw - 68px)}}
